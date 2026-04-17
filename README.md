@@ -4,8 +4,11 @@ Personal CLI that searches [Naukri.com](https://www.naukri.com), ranks openings
 against your master resume, and produces a tailored LaTeX/PDF resume per role
 for you to review before applying.
 
-See [`PLAN.md`](./PLAN.md) for the full design, policy/compliance notes, and
-milestone breakdown.
+- [`PLAN.md`](./PLAN.md) — full design, policy/compliance notes, milestones.
+- [`docs/USER_GUIDE.md`](./docs/USER_GUIDE.md) — setup + command walkthrough.
+- [`docs/user-guide.pdf`](./docs/user-guide.pdf) — same guide as a PDF,
+  with an architecture diagram. Regenerate with
+  `uv run --with reportlab python docs/build_user_guide.py`.
 
 ---
 
